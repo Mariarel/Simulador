@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mano Virtual</title>
+    <link rel="stylesheet" href="cssmano.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <div class="button-container">
+        <label for="mano">Seleccione el tono de piel:</label>
+        <button id="opcion-manob" class="button-option-manob" onclick="showHandOptions('images/Manobasico/MB.jpg')"></button>
+        <button id="opcion-manom" class="button-option-manom" onclick="showHandOptions('images/Manobasico/MM.jpg')"></button>
+        <button id="opcion-manon" class="button-option-manon" onclick="showHandOptions('images/Manobasico/MN.jpg')"></button>
+    </div>
+    <div id="mano">
+        <img id="nail1" src="images/Manobasico/MB.jpg">
+
+    </div>
+    <div id="nail-options">
+        <button id="opcion-1" class="button-option-1"></button>
+        <button id="opcion-2" class="button-option-2"></button>
+        <button id="opcion-3" class="button-option-3"></button>
+        <button id="opcion-4" class="button-option-4"></button>
+        <button id="opcion-5" class="button-option-5"></button>
+        <button id="opcion-6" class="button-option-6"></button>
+        <button id="opcion-7" class="button-option-7"></button>
+        <button id="opcion-8" class="button-option-8"></button>
+        <button id="opcion-9" class="button-option-9"></button>
+        <button id="opcion-10" class="button-option-10"></button>
+        <button id="opcion-restablecer" class="button-rees"><i class="fa-solid fa-rotate-right"></i></button> <!-- Agregar botón de reestablecer aquí -->
+        <button id="download-image" class="button-d"><i class="fa-solid fa-download"></i></button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jsmano.js"></script>
+</body>
+</html>
